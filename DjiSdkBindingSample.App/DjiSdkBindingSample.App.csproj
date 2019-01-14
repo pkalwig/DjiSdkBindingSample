@@ -94,6 +94,12 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DjiSdkBindingSample.LibraryBinding\DjiSdkBindingSample.LibraryBinding.csproj">
+      <Project>{2e4293c7-44c5-438a-83f4-37f56a3a1362}</Project>
+      <Name>DjiSdkBindingSample.LibraryBinding</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.
