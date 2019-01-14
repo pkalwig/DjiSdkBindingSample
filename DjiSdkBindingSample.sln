@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DjiSdkBindingSample.LibraryBinding", "DjiSdkBindingSample.LibraryBinding\DjiSdkBindingSample.LibraryBinding.csproj", "{2E4293C7-44C5-438A-83F4-37F56A3A1362}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DjiSdkBindingSample.App", "DjiSdkBindingSample.App\DjiSdkBindingSample.App.csproj", "{5CDD458D-BF51-415A-8BFF-6B8AA927B22D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{2E4293C7-44C5-438A-83F4-37F56A3A1362}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E4293C7-44C5-438A-83F4-37F56A3A1362}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E4293C7-44C5-438A-83F4-37F56A3A1362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CDD458D-BF51-415A-8BFF-6B8AA927B22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDD458D-BF51-415A-8BFF-6B8AA927B22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CDD458D-BF51-415A-8BFF-6B8AA927B22D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5CDD458D-BF51-415A-8BFF-6B8AA927B22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CDD458D-BF51-415A-8BFF-6B8AA927B22D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CDD458D-BF51-415A-8BFF-6B8AA927B22D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
